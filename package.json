@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://pierrecorbay.github.io/primer-codespaces",
+  "homepage": "https://Rajankumar001.github.io/primer-codespaces",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://pierrecorbay.github.io/primer-codespaces'",
+    "build-gh": "parcel build --public-url 'https://Rajankumar001.github.io/primer-codespaces'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
