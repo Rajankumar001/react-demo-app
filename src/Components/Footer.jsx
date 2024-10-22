@@ -10,14 +10,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import devDotToIcon from "../images/socials/devdotto.svg";
+
 import envelopeIcon from "../images/socials/envelope.svg";
 import gitHubIcon from "../images/socials/github.svg";
 import instagramIcon from "../images/socials/instagram.svg";
 import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
-import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
+import leetcodeIcon from "../images/socials/leetcode.svg"
+
 
 /**
  * 💡 Learning resources
@@ -28,7 +29,7 @@ import youTubeIcon from "../images/socials/youtube.svg";
 
 const Footer = (props) => {
   const {
-    devDotTo,
+    leetcode,
     email,
     gitHub,
     instagram,
@@ -36,7 +37,6 @@ const Footer = (props) => {
     medium,
     name,
     primaryColor,
-    twitter,
     youTube,
   } = props;
 
@@ -65,9 +65,9 @@ const Footer = (props) => {
             <img src={envelopeIcon} alt="email" className="socialIcon" />
           </a>
         )}
-        {devDotTo && (
-          <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
-            <img src={devDotToIcon} alt="Dev.to" className="socialIcon" />
+        {leetcode && (
+          <a href={`https://leetcode.com/u/${leetcode}`} target="_blank" rel="noopener noreferrer">
+            <img src={leetcodeIcon} alt="leetcode" className="socialIcon" />
           </a>
         )}
         {gitHub && (
@@ -96,11 +96,6 @@ const Footer = (props) => {
         {medium && (
           <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
-          </a>
-        )}
-        {twitter && (
-          <a href={`https://twitter.com/${twitter}`} target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
         {youTube && (

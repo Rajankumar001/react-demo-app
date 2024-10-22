@@ -30,9 +30,8 @@ const siteProps = {
   gitHub: "Rajankumar001",
   instagram: "chaudharyrajan387",
   linkedIn: "rajan-kumar-chaudhary-0863aa1a5",
-  medium: "",
-  twitter: "microsoft",
   youTube: "Code",
+  leetcode:"javabyrajan"
 };
 
 const primaryColor = "#4E567E";

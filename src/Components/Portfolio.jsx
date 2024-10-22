@@ -40,13 +40,19 @@ const projectList = [
     title: "Sportify",
     description:
       "on this portal you can find your buddy for playing game",
-    url: "https://sportify-otzv.onrender.com/signup",
+    url: "https://sportify-first-project-1.onrender.com/",
   },
   {
-    title: "My Another portfolio",
+    title: "Hungry Crowd",
     description:
-      "here you can read about my education background",
-    url: "https://myportfolio-rajan.netlify.app/",
+      "At Hungry Crowd, we bring you the finest selection of sweets and snacks, crafted with love and tradition.",
+    url: "https://food-app-wine-one.vercel.app/",
+  },
+  {
+    title: "Simon game",
+    description:
+      "A game web app",
+    url: "https://simon-game-by-rajan.netlify.app/",
   },
   
 ];
